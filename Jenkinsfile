@@ -31,7 +31,7 @@ pipeline{
             steps{
                 bat '''
                 venv\\Scripts\\activate
-                C:\Users\\amrutha\\AppData\\Local\\Programs\\Python\\Python313\\python.exe helo.py
+                C:\\Users\\amrutha\\AppData\\Local\\Programs\\Python\\Python313\\python.exe helo.py
                 '''
                 
                 
