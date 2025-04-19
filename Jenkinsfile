@@ -19,7 +19,7 @@ pipeline{
 
             }
         }
-        stages("testing"){
+        stage("testing"){
             steps{
                 bat '''
                     venv\\Scripts\\activate
@@ -27,7 +27,7 @@ pipeline{
                 '''
             }
         }
-        stages("deploy"){
+        stage("deploy"){
             steps{
                 bat '''
                 venv\\Scripts\\activate
