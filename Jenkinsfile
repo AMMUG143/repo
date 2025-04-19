@@ -4,7 +4,7 @@ pipeline{
         stage("git clone"){
             steps{
 
-                git credentialsId: 'AMMU', urL:"https://github.com/AMMUG143/first.git", branch: 'main'
+                git credentialsId: 'AMMU', url:"https://github.com/AMMUG143/first.git", branch: 'main'
 
             }
         }
